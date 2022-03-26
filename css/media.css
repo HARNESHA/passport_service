@@ -1,0 +1,17 @@
+#card1{
+    width: 15rem; margin-left: 200px; border-radius: 15px; text-align: center; background-color: rgb(34, 49, 78); color: white;
+}
+#card2{
+    width: 15rem; margin-left: 500px; text-align: center; background-color: rgb(34, 49, 78); border-radius: 15px;
+}
+@media (max-width:400px) and (min-width:200px) {
+    #card1{
+     width: 15rem;
+     margin-left: 15px;
+    }
+    #card2{
+     width: 15rem;
+     margin-left: 20px;
+    }
+    
+}

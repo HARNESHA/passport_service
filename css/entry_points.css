@@ -1,0 +1,34 @@
+.entrypoints{
+    width: 100%;
+    height: auto;    
+}
+
+.entrypoints .heading h1{
+    color:#007bff;
+    text-align: center;
+}
+
+.entrypoints .heading h2,.entrypoints .heading h3{
+    margin-left: 1%;
+}
+
+.entrypoints .airport{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+hr{
+    border: 2px solid black;
+}
+
+@media(max-width: 867px) {
+    .airport{
+        display: block;
+        width: 100%;
+    }
+}
+
+
+
+

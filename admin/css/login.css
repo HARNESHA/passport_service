@@ -1,0 +1,9 @@
+.col-sm-3 {
+    padding-right: 0px;
+    padding-left: 10px;
+  }
+
+  .box {
+    position: relative;
+    top: 150px;
+  }

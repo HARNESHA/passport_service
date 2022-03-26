@@ -1,0 +1,104 @@
+.advisory {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 2%;
+}
+
+.advisory .leftblock {
+    border: 2px solid #ccc;
+    border-radius: 5%;
+}
+
+.advisory .leftblock .leftinfo {
+    margin: 2%;
+}
+
+.advisory .leftblock .leftinfo h6 {
+    display: block;
+    background-color: #007bff;
+    text-align: center;
+    padding: 15px 0px;
+    border-radius: 5px;
+}
+
+.advisory .centerblock {
+    margin-left: 1%;
+    border: 2px solid #ccc;
+    border-radius: 5%;
+
+}
+
+.advisory .centersblock .centerinfo {
+    margin: 2%;
+}
+
+.image img {
+    width: 99%;
+    padding: 1% 2.5%;
+}
+
+.advisory-info {
+    margin-top: 5%;
+    display: block;
+}
+
+.advisory-info h2 {
+    color: red;
+    padding: 10px;
+}
+
+.advisory-info p {
+    padding: 10px;
+    color: black;
+}
+
+.advisory-info a {
+    color: red;
+}
+
+.advisory .rightblock {
+    margin-left: 1%;
+    width: 35%;
+    border: 2px solid #ccc;
+    border-radius: 5%;
+}
+
+.advisory .rightblock .rightinfo {
+    margin: 2%;
+}
+
+.advisory .rightblock p {
+    margin: 5% 2%;
+    text-align: justify;
+    color: black;
+    font-size: 17px;
+}
+
+.advisory .rightblock h3 {
+    padding: 10px;
+    background-color: #007bff;
+    color: black;
+}
+
+.advisory .rightblock li {
+    color: black;
+    padding-left: 10px;
+}
+
+@media(max-width: 867px) {
+.advisory{
+display: block;
+margin: 0;
+padding: 0;
+}
+.advisory .centerblock{
+    margin-top:2%;
+}
+.advisory .rightblock {
+    margin:2% 0%;
+    width: 100%;
+    display: block;
+    height: auto;
+}
+}

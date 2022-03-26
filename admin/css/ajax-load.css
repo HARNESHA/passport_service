@@ -1,0 +1,18 @@
+.navbar {
+    background-color: #190c0c;
+}
+
+.table {
+    padding: 10px;
+}
+
+.table td,
+.table th {
+    padding: 2px;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+#submit{
+    display:inline-block;
+}
