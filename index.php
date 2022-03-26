@@ -466,6 +466,9 @@
                                     <div class="carousel-item">
                                         <img src="img/Indian-passport1-1366x768.jpg" class="d-block w-100" alt="...">
                                     </div>
+                                    <div class="carousel-item">
+                                        <img src="img/p2.png" class="d-block w-100" alt="...">
+                                    </div>
                                 </div>
                                 <a class="carousel-control-prev" href="#carouselExampleInterval" role="button"
                                     data-slide="prev">
@@ -477,6 +480,7 @@
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                     <span class="sr-only">Next</span>
                                 </a>
+                                
                             </div>
                             <section
                                 class="elementor-element elementor-element-0c376cf elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
