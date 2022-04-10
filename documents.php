@@ -307,17 +307,11 @@
                                                             <div class="elementor-element elementor-element-1e560de elementor-column elementor-col-100 elementor-top-column" data-id="1e560de" data-element_type="column">
                                                                 <div class="elementor-column-wrap  elementor-element-populated">
                                                                     <div class="elementor-widget-wrap">
-                                                                        <div class="elementor-element elementor-element-e02bff7 elementor-widget elementor-widget-heading" data-id="e02bff7" data-element_type="widget" data-widget_type="heading.default">
+                                                                        <div class="elementor-element elementor-element-43f78fd elementor-widget elementor-widget-htmega-tab-addons" data-id="43f78fd" data-element_type="widget"  data-widget_type="htmega-tab-addons.default">
                                                                             <div class="elementor-widget-container">
-                                                                                <h2 class="elementor-heading-title elementor-size-default">
-                                                                                    Documents</h2>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="elementor-element elementor-element-43f78fd elementor-widget elementor-widget-htmega-tab-addons" data-id="43f78fd" data-element_type="widget" data-widget_type="htmega-tab-addons.default">
-                                                                            <div class="elementor-widget-container">
-                                                                                <div class="htmega-tab-area htmega-tab-style-4">
+                                                                                <div class="htmega-tab-area htmega-tab-style-4" >
 
-                                                                                    <div class="htmega-tab-nav htb-nav htmega-tab-menu-style-4" role="tablist">
+                                                                                    <div class="htmega-tab-nav htb-nav htmega-tab-menu-style-4" role="tablist" >
                                                                                         <a class="htb-nav-link htb-active htb-show elementor-repeater-item-2edbcfe" href="#htmegatab-43f78fd1" data-toggle="htbtab" role="tab">Proof of
                                                                                             Address</a><a class="htb-nav-link  elementor-repeater-item-f1e8bb3" href="#htmegatab-43f78fd2" data-toggle="htbtab" role="tab">Proof of Date of
                                                                                             Birth</a><a class="htb-nav-link  elementor-repeater-item-17c0219" href="#htmegatab-43f78fd3" data-toggle="htbtab" role="tab">Proof of

@@ -324,7 +324,7 @@
 																	<div class="elementor-widget-wrap">
 																		<div class="elementor-element elementor-element-f2a1fd3 elementor-widget elementor-widget-heading" data-id="f2a1fd3" data-element_type="widget" data-widget_type="heading.default">
 																			<div class="elementor-widget-container">
-																				<h2 class="elementor-heading-title elementor-size-default">
+																				<h2 class="elementor-heading-title elementor-size-default text-center">
 																					FAQ</h2>
 																			</div>
 																		</div>

@@ -270,10 +270,10 @@
     </style>
 </head>
 
-<body data-rsssl=1 class="home page-template page-template-elementor_header_footer page page-id-146 wp-embed-responsive ehf-header ehf-footer ehf-template-oceanwp ehf-stylesheet-oceanwp oceanwp-theme sidebar-mobile default-breakpoint content-full-screen has-topbar has-breadcrumbs elementor-default elementor-template-full-width elementor-page elementor-page-146">
+<body data-rsssl=1 class="home page-template page-template-elementor_header_footer page page-id-146 wp-embed-responsive ehf-header ehf-footer ehf-template-oceanwp ehf-stylesheet-oceanwp oceanwp-theme sidebar-mobile default-breakpoint content-full-screen has-topbar has-breadcrumbs elementor-default elementor-template-full-width elementor-page elementor-page-146" style="margin-left: -25rem;">
 
 
-    <div id="outer-wrap" class="site clr">
+    <div id="outer-wra" class="site clr">
 
 
         <div id="wrap" class="clr">
@@ -312,7 +312,7 @@
                                                                     <div class="elementor-widget-wrap">
                                                                         <div class="elementor-element elementor-element-ad97a14 elementor-widget elementor-widget-heading" data-id="ad97a14" data-element_type="widget" data-widget_type="heading.default">
                                                                             <div class="elementor-widget-container">
-                                                                                <h2 class="elementor-heading-title elementor-size-default">
+                                                                                <h2 class="elementor-heading-title elementor-size-default text-center">
                                                                                     Refund Policy</h2>
                                                                             </div>
                                                                         </div>
