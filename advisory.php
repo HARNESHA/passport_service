@@ -8,35 +8,6 @@
 
 
 <head>
-
-    <!--BEGIN: TRACKING CODE MANAGER BY INTELLYWP.COM IN HEAD//-->
-    <!-- Global site tag (gtag.js) - Google Ads: 702513016 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-702513016"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'AW-702513016');
-    </script>
-    <!--END: https://wordpress.org/plugins/tracking-code-manager IN HEAD//-->
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-181794630-1">
-    </script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-181794630-1');
-    </script>
     <meta charset="UTF-8">
     <link rel="profile" href="https://gmpg.org/xfn/11">
 

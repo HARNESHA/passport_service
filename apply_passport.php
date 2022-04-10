@@ -7,36 +7,9 @@
 
 
 
+
 <head>
 
-    <!--BEGIN: TRACKING CODE MANAGER BY INTELLYWP.COM IN HEAD//-->
-    <!-- Global site tag (gtag.js) - Google Ads: 702513016 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-702513016"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'AW-702513016');
-    </script>
-    <!--END: https://wordpress.org/plugins/tracking-code-manager IN HEAD//-->
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-181794630-1">
-    </script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-181794630-1');
-    </script>
     <meta charset="UTF-8">
     <link rel="profile" href="https://gmpg.org/xfn/11">
 
@@ -153,6 +126,7 @@
             padding: 0 !important;
         }
     </style>
+    <link rel="stylesheet" href="./css/apply visa form.css">
     <link rel='stylesheet' id='wp-block-library-css' href='wp-includes/css/dist/block-library/style.min4d2c.css?ver=5.2.4' type='text/css' media='all' />
     <link rel='stylesheet' id='wp-block-library-theme-css' href='wp-includes/css/dist/block-library/theme.min4d2c.css?ver=5.2.4' type='text/css' media='all' />
     <link rel='stylesheet' id='vfm-bootstrap-css' href='wp-content/plugins/form-to-xml/css/bootstrap.min4d2c.css?ver=5.2.4' type='text/css' media='all' />
@@ -298,117 +272,86 @@
     </style>
 </head>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ST9WB0MF3P"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'G-ST9WB0MF3P');
-</script>
-
 <body data-rsssl=1 class="home page-template page-template-elementor_header_footer page page-id-146 wp-embed-responsive ehf-header ehf-footer ehf-template-oceanwp ehf-stylesheet-oceanwp oceanwp-theme sidebar-mobile default-breakpoint content-full-screen has-topbar has-breadcrumbs elementor-default elementor-template-full-width elementor-page elementor-page-146">
-
-
     <div id="outer-wrap" class="site clr">
-
-
         <div id="wrap" class="clr">
-
             <?php include 'header.php'; ?>
-
-
             <main id="main" class="site-main clr">
-
-                <div data-elementor-type="wp-post" data-elementor-id="146" class="elementor elementor-146" data-elementor-settings="[]">
-                    <div class="elementor-inner">
-                        <div class="elementor-section-wrap">
-                            <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-                                <div class="carousel-inner" style="width: 100%; height: 400px%;">
-                                    <div class="carousel-item active" data-interval="10000">
-                                        <img src="img/indian-passport759.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/Indian-passport1-1366x768.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/p2.png" class="d-block w-100" alt="...">
-                                    </div>
+                <div class="form-container">
+                    <div class="title">PASSPORT APPLY FORM</div>
+                    <form method="post" action="pay.php">
+                        <div class="user-details">
+                            <div class="display">
+                                <div class="input-box">
+                                    <label for="applying-for">Applying for</label>
+                                    <select class="form-control" id="applying-for" name="applying-for">
+                                        <option value="fresh">New / Fresh Passport</option>
+                                        <option value="reissue">Reissue Passport</option>
+                                    </select>
                                 </div>
-                                <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-
                             </div>
-                            <section class="elementor-element elementor-element-0c376cf elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="0c376cf" data-element_type="section">
-                                <div class="elementor-container elementor-column-gap-default">
-                                    <div class="elementor-row">
-                                        <div class="elementor-element elementor-element-371925f elementor-column elementor-col-100 elementor-top-column" data-id="371925f" data-element_type="column">
-                                            <div class="elementor-column-wrap  elementor-element-populated">
-                                                <div class="elementor-widget-wrap">
-                                                    <div class="elementor-element elementor-element-cb9a95c elementor-widget elementor-widget-html" data-id="cb9a95c" data-element_type="widget" data-widget_type="html.default">
-                                                        <div class="elementor-widget-container">
-                                                            <marquee class="hmar" style="background-color: rgb(34, 49, 78);">
-                                                                Apply Online For Passport Application – Simple & Easy
-                                                                Process (Private Consultancy Service Provider)
-                                                            </marquee>
-                                                        </div>
-                                                    </div>
-                                                    <section style="display: flex;">
-                                                        <div class="card" id="card1">
-                                                            <div class="card-body" style="border-radius: 15px;">
-                                                                <h2 style="color: white;">Call us 90999 45386</h2>
-                                                            </div>
-                                                        </div>
-                                                        <a href="#"  rel="noopener noreferrer">
-                                                            <div class="card" id="card2">
-                                                                <div class="card-body" style=" border-radius: 15px;">
-                                                                    <h2 style="color: white;">Apply Manually</h2>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </section>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+
+                            <div class="display">
+                                <div class="input-box">
+                                    <label for="type-of-application">Type of Application</label>
+                                    <select class="form-control" id="type-of-application" name="type-of-application">
+                                        <option value="normal">Normal</option>
+                                        <option value="tatkaal">Tatkaal</option>
+                                    </select>
                                 </div>
-                            </section>
-                            <section class="elementor-element elementor-element-703fb96 elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="703fb96" data-element_type="section">
-                                <div class="elementor-container elementor-column-gap-no">
-                                    <div class="elementor-row">
-                                        <div class="elementor-element elementor-element-f98ac9b elementor-column elementor-col-100 elementor-top-column" data-id="f98ac9b" data-element_type="column">
-                                            <div class="elementor-column-wrap">
-                                                <div class="elementor-widget-wrap">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                            </div>
+
+                            <div class="display">
+                                <div class="input-box">
+                                    <label for="type-of-passport-booklet">Type of Passport
+                                        Booklet</label>
+                                    <select class="form-control" id="type-of-passport-booklet" name="type-of-passport-booklet">
+                                        <option value="36-pages">36 Pages</option>
+                                        <option value="60-pages">60 Pages</option>
+                                    </select>
                                 </div>
-                            </section>
+                            </div>
+
+                            <div class="display">
+                                <div class="input-box">
+                                    <span class="details">Enter Full Name</span>
+                                    <input type="text" placeholder="Enter your Full name" id="lastname" name="applicant-name" required>
+                                    <span id="LASTNAME"></span>
+                                </div>
+                            </div>
+
+                            <div class="display">
+                                <div class="input-box">
+                                    <span class="details">Email</span>
+                                    <input type="text" placeholder="Enter your Email" id="email" name="email" required>
+                                    <span id="EMAIL"></span>
+                                </div>
+                            </div>
+
+                            <div class="display">
+                                <div class="input-box">
+                                    <span class="details">Phone No.</span>
+                                    <input type="text" placeholder="Enter your Phone No." id="phoneno" name="phone" required>
+                                    <span id="PHONENO"></span>
+                                </div>
+                            </div>
+
+                            <div class="display">
+                                <div class="input-box">
+                                    <span class="details">Age</span>
+                                    <input type="text" placeholder="Enter your City" id="city" name="age" required>
+                                    <span id="Age"></span>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                        <div class="button">
+                            <input type="submit" name="submit" value="submit">
+                        </div>
+                    </form>
                 </div>
-
             </main><!-- #main -->
-
-
-
             <?php include 'footer.php'; ?>
-
-
         </div><!-- #wrap -->
-
-
     </div><!-- #outer-wrap -->
 
 

@@ -8,35 +8,6 @@
 
 
 <head>
-
-    <!--BEGIN: TRACKING CODE MANAGER BY INTELLYWP.COM IN HEAD//-->
-    <!-- Global site tag (gtag.js) - Google Ads: 702513016 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-702513016"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'AW-702513016');
-    </script>
-    <!--END: https://wordpress.org/plugins/tracking-code-manager IN HEAD//-->
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-181794630-1">
-    </script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-181794630-1');
-    </script>
     <meta charset="UTF-8">
     <link rel="profile" href="https://gmpg.org/xfn/11">
     <link rel="stylesheet" href="./css/login.css">
@@ -327,47 +298,21 @@
 
 
             <main id="main" class="site-main clr">
-                <!-- <div class="form-container">
-                    <div class="title">Login</div>
-                    <form method="post">
-                        <div class="user-details">
-                            <div class="display">
-                                <div class="input-box">
-                                    <span class="details">User Name</span>
-                                    <input type="text" placeholder="Enter your name" id="username" name="username" required>
-                                    <span id="USERNAME"></span>
-                                </div>
-                            </div>
-
-                          
-                            <div class="display">
-                                <div class="input-box">
-                                    <span class="details">Password</span>
-                                   <input type="text" name="password" placeholder="Enter your password" >
-                                    <span id="FMESSAGE"></span>
-                                </div>
-                            </div>
-                            <div class="button">
-                                <input type="submit" name="submit" value="submit" onclick="return validate()">
-                            </div>
-                        </div>
-                    </form>
-                </div> -->
                 <section class=" signup login">
-        <form action="register.php" method="post">
-            <i class="fas fa-user-plus"></i>
-            <input class="user-input" type="text" name="username" id="username" placeholder="Enter a Username" required>
-            <span id="user"></span>
-            <input class="user-input" type="text" name="email" id="email" placeholder="Enter a Email" required>
-            <span id="eml"></span>
-            <input class="user-input" type="tel" name="mobileno" id="mobileno" placeholder="Enter a mobile no." required>
-            <span id="mob"></span>
-            <input class="user-input" type="password" name="password" id="password" placeholder="Enter a Password" required>
-            <span id="pass"></span>
-         
-            <input class="button" type="submit" value="submit" name="submit" >
-        </form>
-    </section>
+                    <form action="register.php" method="post">
+                        <i class="fas fa-user-plus"></i>
+                        <input class="user-input" type="text" name="username" id="username" placeholder="Enter a Username" required>
+                        <span id="user"></span>
+                        <input class="user-input" type="text" name="email" id="email" placeholder="Enter a Email" required>
+                        <span id="eml"></span>
+                        <input class="user-input" type="tel" name="mobileno" id="mobileno" placeholder="Enter a mobile no." required>
+                        <span id="mob"></span>
+                        <input class="user-input" type="password" name="password" id="password" placeholder="Enter a Password" required>
+                        <span id="pass"></span>
+
+                        <input class="button" type="submit" value="submit" name="submit">
+                    </form>
+                </section>
 
 
             </main><!-- #main -->

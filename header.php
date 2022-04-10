@@ -61,7 +61,7 @@
                                                                     </li>
                                                                     <li
                                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-590">
-                                                                        <a href="apply_visa.php"
+                                                                        <a href="apply_passport.php"
                                                                             class="elementor-item">Apply Passport/Visa</a></li>
 
                                                                     <li
@@ -72,16 +72,6 @@
                                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37">
                                                                         <a href="fees.php"
                                                                             class="elementor-item">Fees</a></li>
-
-                                                                    <!-- <li
-                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41">
-                                                                        <a href="refunds-policy/index.html"
-                                                                            class="elementor-item">Refunds Policy</a>
-                                                                    </li> -->
-                                                                    <!-- <li
-                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-232">
-                                                                        <a href="faq/index.html"
-                                                                            class="elementor-item">FAQ</a></li> -->
                                                                     <li
                                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176">
                                                                         <a href="contact-us.php"
@@ -156,26 +146,6 @@
                                     </div>
                                 </div>
                             </section>
-                            <!-- <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-                                <div class="carousel-inner" style="width: 100%; height: 400px%;">
-                                    <div class="carousel-item active" data-interval="10000">
-                                        <img src="img/indian-passport759.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/Indian-passport1-1366x768.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carouselExampleInterval" role="button"
-                                    data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleInterval" role="button"
-                                    data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div> -->
                         </div>
                     </div>
                 </div>
