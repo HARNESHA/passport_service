@@ -24,6 +24,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <link rel="stylesheet" href="css/addcompany.css">
 </head>
 
@@ -94,28 +95,15 @@
                                 </div>
                             </div>
 
-                    <!-- <div class="mb-3 row">
-                        <label for="industry" class="col-sm-3 col-form-label">Industry</label>
-                        <div class="col-sm-9">
-                            <select class="form-control" id="industry" aria-label="Default select example">
-                                <option selected value="">--select industry type--</option>
-                                <option value="Account">Account</option>
-                                <option value="IT">IT</option>
-                                <option value="Sales">Sales</option>
-                                <option value="Health Care">Health Care</option>
-                            </select>
-                            <span id="Industry"></span>
-                        </div>
-                    </div> -->
+                        <div class="g-recaptcha" data-sitekey="6LfI3mAfAAAAANaKXl4FG5GGiXYkSmmUZId14agb"></div>
+                                <br>
                     <button type="submit" id="submit" class="btn btn-primary float-right">Add Feedback</button>
                 </form>
             </div>
         </div>
     </div>
 
-    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-        </script> -->
+
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/addfeedback.js"></script>
 

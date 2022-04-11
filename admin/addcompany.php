@@ -94,28 +94,14 @@
                                 </div>
                             </div>
 
-                    <!-- <div class="mb-3 row">
-                        <label for="industry" class="col-sm-3 col-form-label">Industry</label>
-                        <div class="col-sm-9">
-                            <select class="form-control" id="industry" aria-label="Default select example">
-                                <option selected value="">--select industry type--</option>
-                                <option value="Account">Account</option>
-                                <option value="IT">IT</option>
-                                <option value="Sales">Sales</option>
-                                <option value="Health Care">Health Care</option>
-                            </select>
-                            <span id="Industry"></span>
-                        </div>
-                    </div> -->
+
                     <button type="submit" id="submit" class="btn btn-primary float-right">Add Feedback</button>
                 </form>
             </div>
         </div>
     </div>
 
-    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-        </script> -->
+
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/addcompany.js"></script>
 

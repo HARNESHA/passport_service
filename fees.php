@@ -333,22 +333,22 @@
 																							<tr>
 																								<td>New Passport
 																									Application</td>
-																								<td>0000</td>
-																								<td>0000</td>
-																								<td>0000</td>
-																								<td>0000</td>
-																								<td>0000</td>
-																								<td>0000</td>
+																								<td>1000</td>
+																								<td>1500</td>
+																								<td>2000</td>
+																								<td>999</td>
+																								<td>500</td>
+																								<td>999</td>
 																							</tr>
 																							<tr>
 																								<td>Re-Issue Passport
 																									Application</td>
-																								<td>0000</td>
-																								<td>0000</td>
-																								<td>0000</td>
-																								<td>0000</td>
-																								<td>0000</td>
-																								<td>0000</td>
+																								<td>1000</td>
+																								<td>1500</td>
+																								<td>2000</td>
+																								<td>999</td>
+																								<td>500</td>
+																								<td>999</td>
 																							</tr>
 																						</tbody>
 																					</table>

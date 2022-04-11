@@ -25,6 +25,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:description" content="Apply Online For Passport Application – Simple &amp; Easy Process (Private Consultancy Service Provider)" />
     <meta name="twitter:title" content="Home - Online Passport Application" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>
         {
             "@context": "https://schema.org",
@@ -377,18 +378,12 @@
                             </div>
 
                             <div class="display">
-                                <div class="input-box">
-                                    <span class="details">Captcha</span>
-                                    <img src="./img/captcha.webp" width="200" height="500" alt="">
-                                </div>
+                                
+                        <div class="g-recaptcha" data-sitekey="6LfI3mAfAAAAANaKXl4FG5GGiXYkSmmUZId14agb"></div>
+                                <br>
                             </div>
 
-                            <div class="display">
-                                <div class="input-box">
-                                    <input type="text" placeholder="Enter your Captcha" id="captcha" name="captcha" required>
-                                    <span id="CAPTCHA"></span>
-                                </div>
-                            </div>
+                            
 
 
                             <div class="display" style="display:flex; margin:10px 0px;">
