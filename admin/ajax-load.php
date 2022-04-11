@@ -51,7 +51,11 @@ if(empty($_SESSION['logged_in'])){
             </div>
         </div>
     </nav>
+
+<h1 class="d-flex justify-content-center text-primary">Feedback panel</h1><br>
+
 <div class="d-flex justify-content-center">
+
 <div class="mb-1 row mt-2">
     <div class="mt-2">
         <label for="search" class="col-form-label ml-3"><strong> Filter :</strong></label></div>
