@@ -297,6 +297,57 @@
 
 
             <main id="main" class="site-main clr">
+                <div style="display: grid; place-items:center; height:100vh">
+                    <div class="card" style="width: 50%;">
+                        <div class="card-header">
+                            Add Feedback
+                        </div>
+                        <div class="card-body">
+                            <form method="post" id="myform" action="addfeedback.php">
+
+                                <div class="mb-3 row">
+
+                                    <label for="cname" class="col-sm-3 col-form-label">Name</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" id="cname" name="cname">
+                                        <span id="Cname"></span>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3 row">
+                                    <label for="phone_no" class="col-sm-3 col-form-label">Phone</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" id="phone_no" name="phone">
+                                        <span id="Phone_no"></span>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3 row">
+                                    <label for="contry" class="col-sm-3 col-form-label">Client id</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" name="cid" id="country">
+                                    </div>
+                                </div>
+
+                                <div class="mb-3 row">
+                                    <label for="city" class="col-sm-3 col-form-label">City</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" name="city" id="city">
+                                    </div>
+                                </div>
+
+                                <div class="mb-3 row">
+                                    <label for="city" class="col-sm-3 col-form-label">Feedback</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" name="feedback" id="feedback">
+                                    </div>
+                                </div>
+
+                                <button type="submit" id="submit" class="btn btn-primary float-right">Add Feedback</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
 
             </main><!-- #main -->
 

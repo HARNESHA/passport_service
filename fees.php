@@ -240,16 +240,6 @@
     </style>
 </head>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ST9WB0MF3P"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-ST9WB0MF3P');
-</script>
-
 <body data-rsssl=1
     class="home page-template page-template-elementor_header_footer page page-id-146 wp-embed-responsive ehf-header ehf-footer ehf-template-oceanwp ehf-stylesheet-oceanwp oceanwp-theme sidebar-mobile default-breakpoint content-full-screen has-topbar has-breadcrumbs elementor-default elementor-template-full-width elementor-page elementor-page-146">
 

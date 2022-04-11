@@ -19,4 +19,3 @@ if (mysqli_query($con, $query)) {
 } else {
     echo "0";
 }
-?>

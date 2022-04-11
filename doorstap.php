@@ -8,7 +8,7 @@
 
 
 <head>
-    
+
     <meta charset="UTF-8">
     <link rel="profile" href="https://gmpg.org/xfn/11">
 
@@ -270,6 +270,19 @@
     </style>
 </head>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ST9WB0MF3P"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-ST9WB0MF3P');
+</script>
+
 <body data-rsssl=1 class="home page-template page-template-elementor_header_footer page page-id-146 wp-embed-responsive ehf-header ehf-footer ehf-template-oceanwp ehf-stylesheet-oceanwp oceanwp-theme sidebar-mobile default-breakpoint content-full-screen has-topbar has-breadcrumbs elementor-default elementor-template-full-width elementor-page elementor-page-146">
 
 
@@ -278,82 +291,31 @@
 
         <div id="wrap" class="clr">
 
+
+
             <?php include 'header.php'; ?>
 
 
             <main id="main" class="site-main clr">
+                <div style="display: grid; place-items:center;margin:5rem">
+                    <div class="card" style="width: 50%;">
+                        <div class="card-header">
+                            Apply Doorstap
+                        </div>
+                        <div class="card-body">
+                            <form method="post" id="myform" action="adddootstap.php">
 
-                <div data-elementor-type="wp-post" data-elementor-id="146" class="elementor elementor-146" data-elementor-settings="[]">
-                    <div class="elementor-inner">
-                        <div class="elementor-section-wrap">
-                            <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-                                <div class="carousel-inner" style="width: 100%; height: 400px%;">
-                                    <div class="carousel-item active" data-interval="10000">
-                                        <img src="img/indian-passport759.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/Indian-passport1-1366x768.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/p2.png" class="d-block w-100" alt="...">
-                                    </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
+                                <div class="mb-3 row">
 
-                            </div>
-                            <section class="elementor-element elementor-element-0c376cf elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="0c376cf" data-element_type="section">
-                                <div class="elementor-container elementor-column-gap-default">
-                                    <div class="elementor-row">
-                                        <div class="elementor-element elementor-element-371925f elementor-column elementor-col-100 elementor-top-column" data-id="371925f" data-element_type="column">
-                                            <div class="elementor-column-wrap  elementor-element-populated">
-                                                <div class="elementor-widget-wrap">
-                                                    <div class="elementor-element elementor-element-cb9a95c elementor-widget elementor-widget-html" data-id="cb9a95c" data-element_type="widget" data-widget_type="html.default">
-                                                        <div class="elementor-widget-container">
-                                                            <marquee class="hmar" style="background-color: rgb(34, 49, 78);">
-                                                                Apply Online For Passport Application – Simple & Easy
-                                                                Process (Private Consultancy Service Provider)
-                                                            </marquee>
-                                                        </div>
-                                                    </div>
-                                                    <section style="display: flex;">
-                                                        <div class="card" id="card1">
-                                                            <div class="card-body" style="border-radius: 15px;">
-                                                                <h2 style="color: white;">Call us 90999 45386</h2>
-                                                            </div>
-                                                        </div>
-                                                        <a href="#"  rel="noopener noreferrer">
-                                                            <div class="card" id="card2">
-                                                                <div class="card-body" style=" border-radius: 15px;">
-                                                                    <h2 style="color: white;">Apply Manually</h2>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </section>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <label for="cname" class="col-sm-3 col-form-label">Address</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" id="cname" name="Address">
+                                        <span id="Cname"></span>
                                     </div>
                                 </div>
-                            </section>
-                            <section class="elementor-element elementor-element-703fb96 elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="703fb96" data-element_type="section">
-                                <div class="elementor-container elementor-column-gap-no">
-                                    <div class="elementor-row">
-                                        <div class="elementor-element elementor-element-f98ac9b elementor-column elementor-col-100 elementor-top-column" data-id="f98ac9b" data-element_type="column">
-                                            <div class="elementor-column-wrap">
-                                                <div class="elementor-widget-wrap">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
+
+                                <button type="submit" id="submit" class="btn btn-primary float-right">Submit</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -363,6 +325,8 @@
 
 
             <?php include 'footer.php'; ?>
+
+
 
 
         </div><!-- #wrap -->

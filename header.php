@@ -76,6 +76,7 @@
                                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176">
                                                                         <a href="contact-us.php"
                                                                             class="elementor-item">Contact US</a></li>
+
                                                                     <li
                                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-590">
                                                                         <select name="plan" id="plan" onchange="location = this.value;" style="background-color: rgb(34, 49, 78); border:0px;" class="elementor-item">
@@ -85,6 +86,8 @@
                                                                             <option class="elementor-item" value="faq.php">FAQ</option>
                                                                             <option class="elementor-item" value="advisory.php">Advisory</option>
                                                                             <option class="elementor-item" value="e-visa_application.php">Visa</option>
+                                                                            <option class="elementor-item" value="feedback.php">Feedback</option>
+                                                                            <option class="elementor-item" value="doorstap.php">Doorstap</option>
                                                                             <option class="elementor-item" value="entry_points.php">Entry points</option>
                                                                             <!-- <option class="elementor-item" value="fee.php">Advisory</option> -->
                                                                         </select></li>
@@ -132,6 +135,10 @@
                                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-232">
                                                                         <a href="faq/index.html"
                                                                             class="elementor-item">FAQ</a></li>
+                                                                    <li
+                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176">
+                                                                        <a href="contact-us.php"
+                                                                            class="elementor-item">Contact US</a></li>
                                                                     <li
                                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176">
                                                                         <a href="contact-us.php"

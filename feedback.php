@@ -1,3 +1,16 @@
+<?php
+$data = "";
+$con = mysqli_connect("localhost", "root", "", "passport") or die("connection faild");
+
+$sql = "SELECT * from feedback where id =1";
+
+$result = $con->query($sql);
+if ($result->num_rows > 0) {
+    $data = $result;
+} else {
+    echo "0";
+}
+?>
 <!DOCTYPE html>
 <html class="html" lang="en-US" itemscope itemtype="http://schema.org/WebPage">
 
@@ -8,11 +21,11 @@
 
 
 <head>
-    
+
     <meta charset="UTF-8">
     <link rel="profile" href="https://gmpg.org/xfn/11">
 
-    <title>Home - Online Passport Application</title>
+    <title>Feedback - Online Passport Application</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- This site is optimized with the Yoast SEO plugin v13.1 - https://yoast.com/wordpress/plugins/seo/ -->
     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
@@ -270,6 +283,7 @@
     </style>
 </head>
 
+
 <body data-rsssl=1 class="home page-template page-template-elementor_header_footer page page-id-146 wp-embed-responsive ehf-header ehf-footer ehf-template-oceanwp ehf-stylesheet-oceanwp oceanwp-theme sidebar-mobile default-breakpoint content-full-screen has-topbar has-breadcrumbs elementor-default elementor-template-full-width elementor-page elementor-page-146">
 
 
@@ -278,91 +292,69 @@
 
         <div id="wrap" class="clr">
 
+
+
             <?php include 'header.php'; ?>
 
 
             <main id="main" class="site-main clr">
+                <div style="display: grid; place-items:center; margin:5rem">
+                    <div class="card" style="width: 50%;">
+                        <div class="card-header">
+                            Add Feedback
+                        </div>
+                        <div class="card-body">
+                            <form method="post" id="myform" action="addfeedback.php">
 
-                <div data-elementor-type="wp-post" data-elementor-id="146" class="elementor elementor-146" data-elementor-settings="[]">
-                    <div class="elementor-inner">
-                        <div class="elementor-section-wrap">
-                            <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-                                <div class="carousel-inner" style="width: 100%; height: 400px%;">
-                                    <div class="carousel-item active" data-interval="10000">
-                                        <img src="img/indian-passport759.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/Indian-passport1-1366x768.jpg" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="img/p2.png" class="d-block w-100" alt="...">
-                                    </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
+                                <div class="mb-3 row">
 
-                            </div>
-                            <section class="elementor-element elementor-element-0c376cf elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="0c376cf" data-element_type="section">
-                                <div class="elementor-container elementor-column-gap-default">
-                                    <div class="elementor-row">
-                                        <div class="elementor-element elementor-element-371925f elementor-column elementor-col-100 elementor-top-column" data-id="371925f" data-element_type="column">
-                                            <div class="elementor-column-wrap  elementor-element-populated">
-                                                <div class="elementor-widget-wrap">
-                                                    <div class="elementor-element elementor-element-cb9a95c elementor-widget elementor-widget-html" data-id="cb9a95c" data-element_type="widget" data-widget_type="html.default">
-                                                        <div class="elementor-widget-container">
-                                                            <marquee class="hmar" style="background-color: rgb(34, 49, 78);">
-                                                                Apply Online For Passport Application – Simple & Easy
-                                                                Process (Private Consultancy Service Provider)
-                                                            </marquee>
-                                                        </div>
-                                                    </div>
-                                                    <section style="display: flex;">
-                                                        <div class="card" id="card1">
-                                                            <div class="card-body" style="border-radius: 15px;">
-                                                                <h2 style="color: white;">Call us 90999 45386</h2>
-                                                            </div>
-                                                        </div>
-                                                        <a href="#"  rel="noopener noreferrer">
-                                                            <div class="card" id="card2">
-                                                                <div class="card-body" style=" border-radius: 15px;">
-                                                                    <h2 style="color: white;">Apply Manually</h2>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </section>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <label for="cname" class="col-sm-3 col-form-label">Name</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" id="cname" name="cname">
+                                        <span id="Cname"></span>
                                     </div>
                                 </div>
-                            </section>
-                            <section class="elementor-element elementor-element-703fb96 elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="703fb96" data-element_type="section">
-                                <div class="elementor-container elementor-column-gap-no">
-                                    <div class="elementor-row">
-                                        <div class="elementor-element elementor-element-f98ac9b elementor-column elementor-col-100 elementor-top-column" data-id="f98ac9b" data-element_type="column">
-                                            <div class="elementor-column-wrap">
-                                                <div class="elementor-widget-wrap">
-                                                </div>
-                                            </div>
-                                        </div>
+
+                                <div class="mb-3 row">
+                                    <label for="phone_no" class="col-sm-3 col-form-label">Phone</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" id="phone_no" name="phone">
+                                        <span id="Phone_no"></span>
                                     </div>
                                 </div>
-                            </section>
+
+                                <div class="mb-3 row">
+                                    <label for="contry" class="col-sm-3 col-form-label">Client id</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" name="cid" id="country">
+                                    </div>
+                                </div>
+
+                                <div class="mb-3 row">
+                                    <label for="city" class="col-sm-3 col-form-label">City</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" name="city" id="city">
+                                    </div>
+                                </div>
+
+                                <div class="mb-3 row">
+                                    <label for="city" class="col-sm-3 col-form-label">Feedback</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" name="feedback" id="feedback">
+                                    </div>
+                                </div>
+
+                                <button type="submit" id="submit" class="btn btn-primary float-right">Add Feedback</button>
+                            </form>
                         </div>
                     </div>
                 </div>
 
             </main><!-- #main -->
 
-
-
             <?php include 'footer.php'; ?>
+
+
 
 
         </div><!-- #wrap -->
@@ -416,123 +408,11 @@
     <script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.minf269.js?ver=1.0.1'></script>
     <script type='text/javascript' src='wp-content/plugins/elementor/assets/js/frontend-modules.min42e1.js?ver=2.8.5'></script>
     <script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min16b9.js?ver=2.5.2'></script>
-    <script type='text/javascript'>
-        var ElementorProFrontendConfig = {
-            "ajaxurl": "https:\/\/passportsevaindia.in\/wp-admin\/admin-ajax.php",
-            "nonce": "69ed4d3bbf",
-            "shareButtonsNetworks": {
-                "facebook": {
-                    "title": "Facebook",
-                    "has_counter": true
-                },
-                "twitter": {
-                    "title": "Twitter"
-                },
-                "google": {
-                    "title": "Google+",
-                    "has_counter": true
-                },
-                "linkedin": {
-                    "title": "LinkedIn",
-                    "has_counter": true
-                },
-                "pinterest": {
-                    "title": "Pinterest",
-                    "has_counter": true
-                },
-                "reddit": {
-                    "title": "Reddit",
-                    "has_counter": true
-                },
-                "vk": {
-                    "title": "VK",
-                    "has_counter": true
-                },
-                "odnoklassniki": {
-                    "title": "OK",
-                    "has_counter": true
-                },
-                "tumblr": {
-                    "title": "Tumblr"
-                },
-                "delicious": {
-                    "title": "Delicious"
-                },
-                "digg": {
-                    "title": "Digg"
-                },
-                "skype": {
-                    "title": "Skype"
-                },
-                "stumbleupon": {
-                    "title": "StumbleUpon",
-                    "has_counter": true
-                },
-                "telegram": {
-                    "title": "Telegram"
-                },
-                "pocket": {
-                    "title": "Pocket",
-                    "has_counter": true
-                },
-                "xing": {
-                    "title": "XING",
-                    "has_counter": true
-                },
-                "whatsapp": {
-                    "title": "WhatsApp"
-                },
-                "email": {
-                    "title": "Email"
-                },
-                "print": {
-                    "title": "Print"
-                }
-            },
-            "facebook_sdk": {
-                "lang": "en_US",
-                "app_id": ""
-            }
-        };
-    </script>
     <script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/js/frontend.min16b9.js?ver=2.5.2'></script>
     <script type='text/javascript' src='wp-includes/js/jquery/ui/position.mine899.js?ver=1.11.4'></script>
     <script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/dialog/dialog.minfe9d.js?ver=4.7.3'></script>
     <script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2'></script>
     <script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/swiper/swiper.min4f24.js?ver=4.4.6'></script>
-    <script type='text/javascript'>
-        var elementorFrontendConfig = {
-            "environmentMode": {
-                "edit": false,
-                "wpPreview": false
-            },
-            "is_rtl": false,
-            "breakpoints": {
-                "xs": 0,
-                "sm": 480,
-                "md": 768,
-                "lg": 1025,
-                "xl": 1440,
-                "xxl": 1600
-            },
-            "version": "2.8.5",
-            "urls": {
-                "assets": "https:\/\/passportsevaindia.in\/wp-content\/plugins\/elementor\/assets\/"
-            },
-            "settings": {
-                "page": [],
-                "general": {
-                    "elementor_global_image_lightbox": "yes"
-                },
-                "editorPreferences": []
-            },
-            "post": {
-                "id": 146,
-                "title": "Home",
-                "excerpt": ""
-            }
-        };
-    </script>
     <script type='text/javascript' src='wp-content/plugins/elementor/assets/js/frontend.min42e1.js?ver=2.8.5'></script>
     <script type='text/javascript' src='wp-content/plugins/ht-mega-for-elementor/assets/js/popper.mine34c.js?ver=1.3.5'></script>
     <script type='text/javascript' src='wp-content/plugins/ht-mega-for-elementor/assets/js/htbbootstrape34c.js?ver=1.3.5'></script>

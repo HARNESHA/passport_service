@@ -27,12 +27,13 @@ session_start();
 
 // $inster = "insert into final(applying_for,type_of_application, type_of_passport_booklet, passport_reason, date_of_expiry, has_passport_expired, passport_appearance,passport_signature, passport_given_name, passport_surname, passport_dof, passport_spouse_name, passport_address, passport_delete_ecr, passport_other, applicant_name, phone,email,age,code) VALUES ('$applying_for', '$type_of_application', '$type_of_passport_booklet', '$passport_reason', '$date_of_expiry', '$has_passport_expired', '$passport_appearance', '$passport_signature','$passport_given_name', '$passport_surname', '$passport_dof', '$passport_spouse_name', '$passport_address', '$passport_delete_ecr', '$passport_other', '$applicant_name', '$phone','$email','$age','$promo');";
 // $res = mysqli_query($con, $inster);
-    
+
 
 
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -40,16 +41,18 @@ session_start();
 </head>
 
 <style>
-    .thank{
+    .thank {
         margin: auto;
         position: relative;
         margin-left: auto;
         align-items: center;
     }
 </style>
+
 <body>
-    <div class="thank">
-    <h1>Thank You</h1>
+    <div class="thank" style="display: grid; place-items:center; height:100vh">
+        <h1>Thank You</h1>
     </div>
 </body>
+
 </html>
