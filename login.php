@@ -1,8 +1,20 @@
+<?php
+// session_start();
+$isloggedin=true;
+if(empty($_SESSION['logged_in'])){
+    $isloggedin=false;
+    // echo "<html><head>
+    //     <script>
+    //     alert('Login please');
+    //     location.replace('index.php');
+    //     </script>
+    //     </head>
+    //     </html>";
+}
+?>
 <!DOCTYPE html>
 <html class="html" lang="en-US" itemscope itemtype="http://schema.org/WebPage">
 
-<!-- Mirrored from passportsevaindia.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 01 Aug 2020 08:03:00 GMT -->
-<!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
 
@@ -15,7 +27,6 @@
 
     <title>Home - Online Passport Application</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- This site is optimized with the Yoast SEO plugin v13.1 - https://yoast.com/wordpress/plugins/seo/ -->
     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <link rel="canonical" href="index.html" />
     <meta property="og:locale" content="en_US" />
@@ -56,7 +67,6 @@
             }]
         }
     </script>
-    <!-- / Yoast SEO plugin. -->
 
     <link rel='dns-prefetch' href='http://s.w.org/' />
     <link rel="alternate" type="application/rss+xml" title="Online Passport Application &raquo; Feed" href="feed/index.html" />
@@ -176,12 +186,10 @@
     <link rel="apple-touch-icon-precomposed" href="wp-content/uploads/2020/04/cropped-passportsevaindia-2-180x180.jpg" />
     <meta name="msapplication-TileImage" content="https://passportsevaindia.in/wp-content/uploads/2020/04/cropped-passportsevaindia-2-270x270.jpg" />
     <style type="text/css" id="wp-custom-css">
-        /** Start Envato Elements CSS:Blocks (72-3-34d2cc762876498c8f6be5405a48e6e2) **/
         .envato-block__preview {
             overflow: visible
         }
 
-        /*Kit 69 Custom Styling for buttons */
         .envato-kit-69-slide-btn .elementor-button,
         .envato-kit-69-cta-btn .elementor-button,
         .envato-kit-69-flip-btn .elementor-button {
@@ -203,7 +211,6 @@
             border-bottom: 1px solid #FFF
         }
 
-        /* Fix menu dropdown width */
         .envato-kit-69-menu .elementor-nav-menu--dropdown {
             width: 100% !important
         }
@@ -247,11 +254,8 @@
             top: -9px
         }
 
-        /** End Envato Elements CSS:Blocks (72-3-34d2cc762876498c8f6be5405a48e6e2) **/
     </style>
-    <!-- OceanWP CSS -->
     <style type="text/css">
-        /* General CSS */
         .container {
             width: 1300px
         }
@@ -264,14 +268,12 @@
             }
         }
 
-        /* Header CSS */
         #site-header.has-header-media .overlay-header-media {
             background-color: rgba(0, 0, 0, 0.5)
         }
     </style>
 </head>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ST9WB0MF3P"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
@@ -312,19 +314,15 @@
                     </form>
                 </section>
 
-            </main><!-- #main -->
+            </main>
 
 
 
             <?php include 'footer.php'; ?>
+        </div>
 
 
-
-
-        </div><!-- #wrap -->
-
-
-    </div><!-- #outer-wrap -->
+    </div>
 
 
 
@@ -345,7 +343,7 @@
                 <i class="icon icon-magnifier"></i>
             </button>
         </form>
-    </div><!-- .mobile-menu-search -->
+    </div>
 
     <script type='text/javascript' src='wp-includes/js/imagesloaded.min55a0.js?ver=3.2.0'></script>
     <script type='text/javascript' src='wp-content/plugins/ht-mega-for-elementor/assets/js/jquery.magnific-popup.mine34c.js?ver=1.3.5'></script>
@@ -366,9 +364,7 @@
     </script>
     <script type='text/javascript' src='wp-content/themes/oceanwp/assets/js/main.min4735.js?ver=1.7.1'></script>
     <script type='text/javascript' src='wp-includes/js/wp-embed.min4d2c.js?ver=5.2.4'></script>
-    <!--[if lt IE 9]>
-<script type='text/javascript' src='https://passportsevaindia.in/wp-content/themes/oceanwp/assets/js//third/html5.min.js?ver=1.7.1'></script>
-<![endif]-->
+
     <script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.minf269.js?ver=1.0.1'></script>
     <script type='text/javascript' src='wp-content/plugins/elementor/assets/js/frontend-modules.min42e1.js?ver=2.8.5'></script>
     <script type='text/javascript' src='wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min16b9.js?ver=2.5.2'></script>
@@ -495,6 +491,5 @@
     <script type='text/javascript' src='wp-content/plugins/ht-mega-for-elementor/assets/js/waypointsf39e.js?ver=4.0.1'></script>
 </body>
 
-<!-- Mirrored from passportsevaindia.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 01 Aug 2020 08:03:19 GMT -->
 
 </html>

@@ -1,3 +1,18 @@
+<?php
+// session_start();
+$isloggedin=true;
+echo $isloggedin;
+if(empty($_SESSION['logged_in'])){
+        $isloggedin=false;
+    // echo "<html><head>
+    //     <script>
+    //     alert('Login please');
+    //     location.replace('index.php');
+    //     </script>
+    //     </head>
+    //     </html>";
+}
+?>
 <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
                 <p class="main-title bhf-hidden" itemprop="headline"><a href="index.html"
                         title="Online Passport Application" rel="home">Online Passport Application</a></p>
@@ -91,10 +106,27 @@
                                                                             <option class="elementor-item" value="entry_points.php">Entry points</option>
                                                                             <!-- <option class="elementor-item" value="fee.php">Advisory</option> -->
                                                                         </select></li>
+                                                                        
+                                                                    <?php 
+                                                                    if($isloggedin==1){
+                                                                        ?>
                                                                     <li
                                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176">
                                                                         <a href="login.php"
                                                                             class="elementor-item">Login/SignUp</a></li>
+                                                                    <?php
+                                                                    }
+                                                                    ?>
+                                                                           <?php 
+                                                                    if($isloggedin==0){
+                                                                        ?>
+                                                                    <li
+                                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176">
+                                                                        <a href="logout.php"
+                                                                            class="elementor-item">Logout</a></li>
+                                                                    <?php
+                                                                    }
+                                                                    ?>
                                                                 </ul>
                                                             </nav>
                                                             <div class="elementor-menu-toggle">

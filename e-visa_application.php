@@ -247,9 +247,8 @@
             top: -9px
         }
 
-        /** End Envato Elements CSS:Blocks (72-3-34d2cc762876498c8f6be5405a48e6e2) **/
+       
     </style>
-    <!-- OceanWP CSS -->
     <style type="text/css">
         /* General CSS */
         .container {
@@ -398,7 +397,7 @@
                     </form>
                 </div>
 
-            </main><!-- #main -->
+            </main>
 
 
 
@@ -407,10 +406,10 @@
 
 
 
-        </div><!-- #wrap -->
+        </div>
 
 
-    </div><!-- #outer-wrap -->
+    </div>
 
 
 

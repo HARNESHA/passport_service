@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html class="html" lang="en-US" itemscope itemtype="http://schema.org/WebPage">
-
-<!-- Mirrored from passportsevaindia.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 01 Aug 2020 08:03:00 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
-
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 
 <head>
@@ -14,7 +10,6 @@
 
     <title>Home - Online Passport Application</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- This site is optimized with the Yoast SEO plugin v13.1 - https://yoast.com/wordpress/plugins/seo/ -->
     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <link rel="canonical" href="index.html" />
     <meta property="og:locale" content="en_US" />
@@ -55,7 +50,7 @@
             }]
         }
     </script>
-    <!-- / Yoast SEO plugin. -->
+
 
     <link rel='dns-prefetch' href='http://s.w.org/' />
     <link rel="alternate" type="application/rss+xml" title="Online Passport Application &raquo; Feed" href="feed/index.html" />
@@ -175,12 +170,10 @@
     <link rel="apple-touch-icon-precomposed" href="wp-content/uploads/2020/04/cropped-passportsevaindia-2-180x180.jpg" />
     <meta name="msapplication-TileImage" content="https://passportsevaindia.in/wp-content/uploads/2020/04/cropped-passportsevaindia-2-270x270.jpg" />
     <style type="text/css" id="wp-custom-css">
-        /** Start Envato Elements CSS:Blocks (72-3-34d2cc762876498c8f6be5405a48e6e2) **/
         .envato-block__preview {
             overflow: visible
         }
 
-        /*Kit 69 Custom Styling for buttons */
         .envato-kit-69-slide-btn .elementor-button,
         .envato-kit-69-cta-btn .elementor-button,
         .envato-kit-69-flip-btn .elementor-button {

@@ -100,11 +100,6 @@
                                                                         class="elementor-nav-menu sm-vertical">
                                                                         <li
                                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179">
-                                                                            <a href="data.html"
-                                                                                class="elementor-item">Data Security</a>
-                                                                        </li>
-                                                                        <li
-                                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179">
                                                                             <a href="disclaimer/index.html"
                                                                                 class="elementor-item">Disclaimer</a>
                                                                         </li>
